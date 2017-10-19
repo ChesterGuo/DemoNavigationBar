@@ -14,6 +14,7 @@
 		1790E99A1EFBC46600ECA079 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1790E9981EFBC46600ECA079 /* LaunchScreen.storyboard */; };
 		1790E9A61EFBFD4C00ECA079 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1790E9A51EFBFD4C00ECA079 /* ResultsTableViewController.swift */; };
 		1790E9A81EFBFD6000ECA079 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1790E9A71EFBFD6000ECA079 /* Contact.swift */; };
+		17CFA4071F98F2F000593061 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CFA4061F98F2F000593061 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1790E99B1EFBC46600ECA079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1790E9A51EFBFD4C00ECA079 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
 		1790E9A71EFBFD6000ECA079 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		17CFA4061F98F2F000593061 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				1790E98F1EFBC46600ECA079 /* AppDelegate.swift */,
 				1790E9911EFBC46600ECA079 /* ViewController.swift */,
 				1790E9A51EFBFD4C00ECA079 /* ResultsTableViewController.swift */,
+				17CFA4061F98F2F000593061 /* TestViewController.swift */,
 				1790E9A71EFBFD6000ECA079 /* Contact.swift */,
 				1790E9931EFBC46600ECA079 /* Main.storyboard */,
 				1790E9961EFBC46600ECA079 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17CFA4071F98F2F000593061 /* TestViewController.swift in Sources */,
 				1790E9A81EFBFD6000ECA079 /* Contact.swift in Sources */,
 				1790E9A61EFBFD4C00ECA079 /* ResultsTableViewController.swift in Sources */,
 				1790E9921EFBC46600ECA079 /* ViewController.swift in Sources */,
@@ -280,7 +284,7 @@
 				DEVELOPMENT_TEAM = 3653896MGT;
 				INFOPLIST_FILE = DemoNavigationBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.chesterGuo.DemoNavigationBar.DemoNavigationBar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chesterGuo.DemoNavigationBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -294,7 +298,7 @@
 				DEVELOPMENT_TEAM = 3653896MGT;
 				INFOPLIST_FILE = DemoNavigationBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.chesterGuo.DemoNavigationBar.DemoNavigationBar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chesterGuo.DemoNavigationBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,6 +324,7 @@
 				1790E9A01EFBC46600ECA079 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
